@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* company */
+  .page_tit{
+    padding:20px 0 40px;font-family:'Roboto';font-weight:bold;font-size:24px;color:#333333;
+  }
+  .art_txt{
+    font-weight:bold;font-size:16px;color:#333333;
+  }
+  .page_txt{
+    font-size:14px;line-height:21px;color:#666666;
+  }
+  .comp{
+    padding:10px 0;
+  }
+  .comp_header, .comp_art{
+    padding:30px 0;
+  }
+  .comp_header>p:last-child{
+    font-weight:bold;
+  }
+  .comp_art{
+    border-bottom:2px solid #b5121b;
+  }
+  .comp_art:last-child{
+    border:none;
+  }
+  .comp_left{
+    float:left;
+  }
+  .comp_art p{
+    padding:20px 0 40px;
+  }
+  .comp_right{
+    float:right;
+  }
+  button.art_tit{
+    border:1px solid #b5121b;padding:10px; background-color: #b5121b; color:white; cursor:pointer;
+  }
+  button.art_tit:hover{
+    border:1px solid #b5121b; background-color: white; color:#b5121b
+  }
